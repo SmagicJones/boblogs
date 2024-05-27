@@ -3,8 +3,9 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Test from "./pages/Test.jsx";
 import Other from "./pages/Other.jsx";
+import TOT from "./pages/TOT.jsx";
+import Home from "./pages/Home.jsx";
 
 const router = createBrowserRouter([
   {
@@ -12,8 +13,12 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "/boblogs/test",
-        element: <Test />,
+        path: "/boblogs/home",
+        element: <Home />,
+      },
+      {
+        path: "/boblogs/tot",
+        element: <TOT />,
       },
       {
         path: "/boblogs/other",
