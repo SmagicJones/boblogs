@@ -24,10 +24,10 @@ function App() {
             Taste of Turkey
           </Link>
           <Link
-            to="/boblogs/other"
+            to="/boblogs/bridgfest"
             className="p-4 bg-lime-200 rounded hover:bg-lime-300 hover:text-white"
           >
-            Other Test
+            Bridgfest
           </Link>
         </nav>
       </section>

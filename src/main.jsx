@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Other from "./pages/Other.jsx";
+import Bridge from "./pages/Bridge.jsx";
 import TOT from "./pages/TOT.jsx";
 import Home from "./pages/Home.jsx";
 
@@ -21,8 +21,8 @@ const router = createBrowserRouter([
         element: <TOT />,
       },
       {
-        path: "/boblogs/other",
-        element: <Other />,
+        path: "/boblogs/bridgfest",
+        element: <Bridge />,
       },
     ],
   },
