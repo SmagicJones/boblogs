@@ -9,7 +9,7 @@ export default function Bridge() {
       <section className="m-2">
         <div className="grid md:grid-cols-1">
           <div className="bg-lime-400 rounded m-2 text-center p-4">
-            <h1 className="text-8xl sm:text-2xl">Bridgfest</h1>
+            <h1 className="text-4xl">Bridgfest</h1>
           </div>
         </div>
       </section>
