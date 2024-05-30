@@ -1,6 +1,7 @@
 import van from "../assets/van.jpg";
 import hat from "../assets/hat.jpg";
 import chips from "../assets/chips.jpg";
+import lasagne from "../assets/lasagne.jpg";
 
 export default function Bridge() {
   return (
@@ -108,6 +109,13 @@ export default function Bridge() {
                 tea, aforementioned companion knocked up a mac n cheese and we
                 settled in for my first ever Eurovision...interesting....
               </p>
+              <div>
+                <img
+                  src={lasagne}
+                  alt=""
+                  className="mx-auto  max-h-[500px] rounded-xl"
+                />
+              </div>
               <p className="p-4">
                 So that was my weekend eating, nothing spectacular this weekend
                 but good old grub (and even better company)!
