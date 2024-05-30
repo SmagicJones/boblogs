@@ -3,11 +3,13 @@ import { Link, Outlet } from "react-router-dom";
 function App() {
   return (
     <>
-      <div className="bg-lime-500 flex justify-center p-4">
-        <div>
-          <h1 className="text-8xl">Boblogs</h1>
+      <header className="grid grid-cols-1 m-2">
+        <div className="bg-lime-500 flex justify-center p-4">
+          <div>
+            <h1 className="text-4xl">Boblogs</h1>
+          </div>
         </div>
-      </div>
+      </header>
 
       <section>
         <nav className="flex justify-evenly p-4">

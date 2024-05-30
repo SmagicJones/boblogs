@@ -12,7 +12,7 @@ export default function TOT() {
       <section>
         <div className="grid md:grid-cols-1">
           <div className="bg-lime-400 rounded m-2 text-center p-4">
-            <h1 className="text-8xl">Taste of Turkey</h1>
+            <h1 className="text-4xl">Taste of Turkey</h1>
           </div>
         </div>
       </section>
