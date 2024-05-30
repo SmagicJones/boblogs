@@ -12,7 +12,7 @@ function App() {
       </header>
 
       <section>
-        <nav className="flex justify-evenly p-4">
+        <nav className="grid md:grid-cols-3 gap-4">
           <Link
             to="/boblogs/home"
             className="p-4 bg-lime-200 rounded hover:bg-lime-300 hover:text-white"
