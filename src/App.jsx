@@ -14,19 +14,19 @@ function App() {
       <section>
         <nav className="grid md:grid-cols-3 gap-4 m-2">
           <Link
-            to="/boblogs/home"
+            to="/home"
             className="p-4 bg-lime-200 rounded hover:bg-lime-300 hover:text-white text-center"
           >
             Home
           </Link>
           <Link
-            to="/boblogs/tot"
+            to="/tot"
             className="p-4 bg-lime-200 rounded hover:bg-lime-300 hover:text-white text-center"
           >
             Taste of Turkey
           </Link>
           <Link
-            to="/boblogs/bridgfest"
+            to="/bridgfest"
             className="p-4 bg-lime-200 rounded hover:bg-lime-300 hover:text-white text-center"
           >
             Bridgfest
