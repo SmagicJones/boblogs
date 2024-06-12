@@ -6,7 +6,7 @@ function App() {
       <header className="grid grid-cols-1 m-2">
         <div className="bg-lime-500 flex justify-center p-4 rounded">
           <div>
-            <h1 className="text-4xl">Boblogs</h1>
+            <h1 className="text-4xl">Boblogs Testing</h1>
           </div>
         </div>
       </header>
