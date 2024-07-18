@@ -9,19 +9,19 @@ import Home from "./pages/Home.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/boblogs",
     element: <App />,
     children: [
       {
-        path: "home",
+        path: "/home",
         element: <Home />,
       },
       {
-        path: "tot",
+        path: "/tot",
         element: <TOT />,
       },
       {
-        path: "bridgfest",
+        path: "/bridgfest",
         element: <Bridge />,
       },
     ],
