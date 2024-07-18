@@ -9,7 +9,7 @@ import Home from "./pages/Home.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/boblogs",
+    path: "/",
     element: <App />,
     children: [
       {
